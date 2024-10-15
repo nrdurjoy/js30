@@ -1,13 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drum Kit|JS30</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Druk Kit | JS30</title>
+  <!-- Link favicon -->
+  <link rel="icon" type="image/x-icon" href="./fav.ico">
+
+  <!-- Link CSS -->
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <script src="./script.js"></script>
+  <section id="drum">
+    <h1>Drum Kit</h1>
+    <div class="key-wrapper">
+      <div data-key="65" class="key">
+        <span>A</span>
+        <p>Crash</p>
+      </div>
+      <div data-key="83" class="key">
+        <span>S</span>
+        <p>Hihat</p>
+      </div>
+      <div data-key="68" class="key">
+        <span>D</span>
+        <p>Kick</p>
+      </div>
+      <div data-key="70" class="key">
+        <span>F</span>
+        <p>OpenHat</p>
+      </div>
+      <div data-key="71" class="key">
+        <span>G</span>
+        <p>Ride</p>
+      </div>
+      <div data-key="72" class="key">
+        <span>H</span>
+        <p>Tom-mid</p>
+      </div>
+      <div data-key="74" class="key">
+        <span>J</span>
+        <p>Snare</p>
+      </div>
+      <div data-key="75" class="key">
+        <span>K</span>
+        <p>Tom</p>
+      </div>
+      <div data-key="76" class="key">
+        <span>L</span>
+        <p>Tink</p>
+      </div>
+    </div>
+  </section>
+
+  <audio data-key="65" src="./audios/01. crash.wav"></audio>
+  <audio data-key="83" src="./audios/02. hihat.wav"></audio>
+  <audio data-key="68" src="./audios/03. Kick.wav"></audio>
+  <audio data-key="70" src="./audios/04. hihat.wav"></audio>
+  <audio data-key="71" src="./audios/05. tom-mid.wav"></audio>
+  <audio data-key="72" src="./audios/06. ride.wav"></audio>
+  <audio data-key="74" src="./audios/07. snare.wav"></audio>
+  <audio data-key="75" src="./audios/08. tom.wav"></audio>
+  <audio data-key="76" src="./audios/09. tink.wav"></audio>
+  <!-- Link JS -->
+   <script src="./script.js"></script>
 </body>
 </html>
